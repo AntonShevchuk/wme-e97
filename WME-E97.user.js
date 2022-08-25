@@ -18,7 +18,7 @@
 // ==/UserScript==
 
 /* jshint esversion: 8 */
-/* global require, $, window, console, W, I18n, OL, APIHelper, Tools */
+/* global require, $, W, I18n, OL, APIHelper, Tools */
 
 (function () {
   'use strict'
