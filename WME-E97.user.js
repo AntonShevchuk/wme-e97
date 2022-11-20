@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         WME E97 Copy address button
-// @version      0.1.5
+// @version      0.1.6
 // @description  One button and one shortcut for copy POI address
 // @license      MIT License
 // @author       Anton Shevchuk
