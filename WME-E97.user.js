@@ -23,7 +23,6 @@
 /* global W */
 /* global I18n */
 /* global WME, WMEBase, WMEUI, WMEUIHelper, WMEUIShortcut */
-/* global Container, Settings, SimpleCache, Tools  */
 
 (function () {
   'use strict'
@@ -46,7 +45,7 @@
     }
   }
 
-  const STYLE = '.e97 { float: right; z-index: 100; top: 0; right: 0; margin: 0 1px}'
+  const STYLE = '.e97 { float: right; z-index: 100; top: 0; right: 0; margin: 0 1px; border: 0; background: none; }'
 
   WMEUI.addTranslation(NAME, TRANSLATION)
   WMEUI.addStyle(STYLE)
@@ -80,17 +79,16 @@
       let icon = document.createElement('i')
       icon.className = 'fa fa-copy w-clickable'
 
-      this.button = document.createElement('div')
+      this.button = document.createElement('button')
       this.button.className = 'e97'
       this.button.title = I18n.t(NAME).title
       this.button.append(icon)
-
-      $(this.button).on('click', () => this.copyAddress())
+      this.button.onclick = () => this.copyAddress()
     }
 
     /**
-     * Create shortcut
-     * Uses APIHelperUI library
+     * Create the shortcut
+     * Uses WMEUI library
      */
     createShortcut () {
       WMEUI.addShortcut(
@@ -104,7 +102,7 @@
     }
 
     /**
-     * Copy venue address to clipboard
+     * Copy the venue address to the clipboard
      * @return {boolean}
      */
     copyAddress () {

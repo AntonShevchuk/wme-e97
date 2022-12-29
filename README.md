@@ -1,5 +1,6 @@
 # WME E97
-Create small button for copy address to clipboard
+
+Create a small button to copy the address to the clipboard.
 
 ![](screenshot.png)
 
@@ -11,7 +12,7 @@ Create small button for copy address to clipboard
 </tr>
 <tr>
 <td align='center'><code>Ctrl</code>+<code>D</code></td>
-<td>Copy address of the selected POI</td>
+<td>Copy the address of the selected POI</td>
 </tr>
 </table>
 
