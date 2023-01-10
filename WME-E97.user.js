@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         WME E97 Copy address button
-// @version      0.2.0
+// @version      0.2.1
 // @description  One button and one shortcut for copy POI address
 // @license      MIT License
 // @author       Anton Shevchuk
@@ -14,7 +14,7 @@
 // @require      https://greasyfork.org/scripts/450160-wme-bootstrap/code/WME-Bootstrap.js?version=1135567
 // @require      https://greasyfork.org/scripts/452563-wme/code/WME.js?version=1101598
 // @require      https://greasyfork.org/scripts/450221-wme-base/code/WME-Base.js?version=1129908
-// @require      https://greasyfork.org/scripts/450320-wme-ui/code/WME-UI.js?version=1135634
+// @require      https://greasyfork.org/scripts/450320-wme-ui/code/WME-UI.js?version=1137009
 // ==/UserScript==
 
 /* jshint esversion: 8 */
