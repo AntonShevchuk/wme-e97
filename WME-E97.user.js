@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         WME E97 Copy address button
-// @version      0.2.1
+// @version      0.2.2
 // @description  One button and one shortcut for copy POI address
 // @license      MIT License
 // @author       Anton Shevchuk
-// @namespace    https://greasyfork.org/users/227648-anton-shevchuk
+// @namespace    https://greasyfork.org/users/22648-anton-shevchuk
 // @supportURL   https://github.com/AntonShevchuk/wme-e97/issues
 // @match        https://*.waze.com/editor*
 // @match        https://*.waze.com/*/editor*
@@ -13,8 +13,8 @@
 // @grant        GM.setClipboard
 // @require      https://greasyfork.org/scripts/450160-wme-bootstrap/code/WME-Bootstrap.js?version=1135567
 // @require      https://greasyfork.org/scripts/452563-wme/code/WME.js?version=1101598
-// @require      https://greasyfork.org/scripts/450221-wme-base/code/WME-Base.js?version=1129908
-// @require      https://greasyfork.org/scripts/450320-wme-ui/code/WME-UI.js?version=1137009
+// @require      https://greasyfork.org/scripts/450221-wme-base/code/WME-Base.js?version=1137043
+// @require      https://greasyfork.org/scripts/450320-wme-ui/code/WME-UI.js?version=1137289
 // ==/UserScript==
 
 /* jshint esversion: 8 */
