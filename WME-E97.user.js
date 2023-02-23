@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name         WME E97 Copy address button
+// @name:uk      WME 🇺🇦 E97 Copy address button
 // @version      0.2.3
 // @description  One button and one shortcut for copy POI address
 // @license      MIT License
