@@ -3,6 +3,7 @@
 // @name:uk      WME 🇺🇦 E97 Copy address button
 // @version      0.2.3
 // @description  One button and one shortcut for copy POI address
+// @description:uk Це лише кнопка, щоб копіювати адресу обраного POI
 // @license      MIT License
 // @author       Anton Shevchuk
 // @namespace    https://greasyfork.org/users/22648-anton-shevchuk
