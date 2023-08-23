@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WME E97 Copy address button
 // @name:uk      WME 🇺🇦 E97 Copy address button
-// @version      0.2.5
+// @version      0.2.6
 // @description  One button and one shortcut for copy POI address
 // @description:uk Це лише кнопка, щоб копіювати адресу обраного POI
 // @license      MIT License
@@ -111,7 +111,7 @@
 
       let parts = [
         poi.getAddress().getHouseNumber(),
-        poi.getAddress().getStreet().name,
+        poi.getAddress().getStreet().getName(),
         poi.getAddress().getCity().getName(),
       ]
 
