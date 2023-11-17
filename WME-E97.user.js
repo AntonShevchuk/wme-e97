@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WME E97 Copy address button
 // @name:uk      WME 🇺🇦 E97 Copy address button
-// @version      0.2.6
+// @version      0.3.0
 // @description  One button and one shortcut for copy POI address
 // @description:uk Це лише кнопка, щоб копіювати адресу обраного POI
 // @license      MIT License
@@ -16,7 +16,7 @@
 // @require      https://greasyfork.org/scripts/450160-wme-bootstrap/code/WME-Bootstrap.js?version=1218867
 // @require      https://greasyfork.org/scripts/452563-wme/code/WME.js?version=1218878
 // @require      https://greasyfork.org/scripts/450221-wme-base/code/WME-Base.js?version=1137043
-// @require      https://greasyfork.org/scripts/450320-wme-ui/code/WME-UI.js?version=1137289
+// @require      https://greasyfork.org/scripts/450320-wme-ui/code/WME-UI.js?version=1281847
 // ==/UserScript==
 
 /* jshint esversion: 8 */
