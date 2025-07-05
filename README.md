@@ -17,6 +17,8 @@ Create a small button to copy the address to the clipboard.
 </table>
 
 ## Links
-Author homepage: http://anton.shevchuk.name/  
+
+Author homepage: https://anton.shevchuk.name/  
+Author pet projects: https://hohli.com/  
 Script homepage: https://github.com/AntonShevchuk/wme-e97/  
 GreasyFork: https://greasyfork.org/uk/scripts/391499-wme-e97-copy-address-button/
