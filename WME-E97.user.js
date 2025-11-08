@@ -25,8 +25,7 @@
 /* global $, jQuery */
 /* global I18n */
 /* global WMEBase, WMEUI, WMEUIHelper */
-
-// import type { Node, Segment, Venue, WmeSDK } from "wme-sdk-typings";
+/* global Node$1, Segment, Venue, VenueAddress, WmeSDK */
 
 (function () {
   'use strict'

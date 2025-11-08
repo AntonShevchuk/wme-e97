@@ -20,5 +20,6 @@ Create a small button to copy the address to the clipboard.
 
 Author homepage: https://anton.shevchuk.name/  
 Author pet projects: https://hohli.com/  
+Support author: https://donate.hohli.com/  
 Script homepage: https://github.com/AntonShevchuk/wme-e97/  
 GreasyFork: https://greasyfork.org/uk/scripts/391499-wme-e97-copy-address-button/
