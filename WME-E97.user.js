@@ -2,7 +2,7 @@
 // @name         WME E97 Copy address button
 // @name:uk      WME 🇺🇦 E97 Copy address button
 // @name:ru      WME 🇺🇦 E97 Copy address button
-// @version      0.4.0
+// @version      0.4.1
 // @description  One button and one shortcut for copy POI address
 // @description:uk Це лише кнопка, щоб копіювати адресу обраного POI
 // @description:ru Просто кнопка, чтобы копировать адрес выбранного POI
@@ -103,11 +103,11 @@
         shortcutKeys: 'C+D',
       };
 
-      if (!this.wmeSDK.Shortcuts.areShortcutKeysInUse({ shortcutKeys: shortcut.shortcutKeys })) {
-        this.wmeSDK.Shortcuts.createShortcut(shortcut);
-      } else {
+      if (this.wmeSDK.Shortcuts.areShortcutKeysInUse({ shortcutKeys: shortcut.shortcutKeys })) {
         this.log('Shortcut already in use')
+        shortcut.shortcutKeys = null
       }
+      this.wmeSDK.Shortcuts.createShortcut(shortcut);
     }
 
     /**
