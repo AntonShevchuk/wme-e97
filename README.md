@@ -1,8 +1,8 @@
-# WME E97
+# WME 🇺🇦 E97
 
 Create a small button to copy the address to the clipboard.
 
-![](screenshot.png)
+![Button](screenshot.png)
 
 ## Shortcuts
 <table style="width:100%">
