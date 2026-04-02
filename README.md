@@ -16,6 +16,16 @@ Create a small button to copy the address to the clipboard.
 </tr>
 </table>
 
+## Development
+
+```bash
+npm install
+npm run build    # single build
+npm run watch    # rebuild on changes
+```
+
+Source is in `src/`, output is `dist/WME-E97.user.js`.
+
 ## Links
 
 Author homepage: https://anton.shevchuk.name/  
