@@ -100,10 +100,10 @@
             let address = this.wmeSDK.DataModel.Venues.getAddress({ venueId: venue.id });
             let parts = [
                 address.houseNumber,
-                address.street.name,
-                address.city.name,
+                address.street?.name,
+                address.city?.name,
             ];
-            let text = parts.filter(el => el != null).join(', ');
+            let text = parts.filter(el => !!el).join(', ');
             GM.setClipboard(text);
             this.log('copied "' + text + '"');
             $('wz-button.external-provider-add-new').click();

@@ -73,11 +73,11 @@ export class E97 extends WMEBase {
 
     let parts = [
       address.houseNumber,
-      address.street.name,
-      address.city.name,
+      address.street?.name,
+      address.city?.name,
     ]
 
-    let text = parts.filter(el => el != null).join(', ')
+    let text = parts.filter(el => !!el).join(', ')
 
     GM.setClipboard(text)
 
