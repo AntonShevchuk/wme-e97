@@ -8,7 +8,7 @@ export class E97 extends WMEBase {
 
     this.createButton()
 
-    this.createShortcut()
+    this.initShortcuts()
   }
 
   /**
@@ -43,19 +43,8 @@ export class E97 extends WMEBase {
   /**
    * Create the shortcut
    */
-  createShortcut() {
-    let shortcut = {
-      callback: () => this.copyAddress(),
-      description: I18n.t(this.name).description,
-      shortcutId: this.id,
-      shortcutKeys: 'C+D',
-    };
-
-    if (this.wmeSDK.Shortcuts.areShortcutKeysInUse({ shortcutKeys: shortcut.shortcutKeys })) {
-      this.log('Shortcut already in use')
-      shortcut.shortcutKeys = null
-    }
-    this.wmeSDK.Shortcuts.createShortcut(shortcut);
+  initShortcuts() {
+    this.createShortcut('copy', I18n.t(this.name).description, 'C+D', () => this.copyAddress())
   }
 
   /**
