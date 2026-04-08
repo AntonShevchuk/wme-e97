@@ -45,13 +45,6 @@
             this.createButton();
             this.initShortcuts();
         }
-        /**
-         * Handler for `venue.wme` event
-         * @param {jQuery.Event} event
-         * @param {HTMLElement} element
-         * @param {Venue} model
-         * @return {Null}
-         */
         onVenue(event, element, model) {
             if (element.querySelector('div.external-providers-control > wz-label')) {
                 element
@@ -60,14 +53,14 @@
             }
         }
         /**
-         * Create `copy` button for external providers
+         * Create a `copy` button for external providers
          */
         createButton() {
             let icon = document.createElement('i');
             icon.className = 'fa fa-copy w-clickable';
             this.button = document.createElement('button');
             this.button.className = 'e97';
-            this.button.title = I18n.t(NAME).title;
+            this.button.title = WMEUI.t(NAME).title;
             this.button.append(icon);
             this.button.onclick = () => this.copyAddress();
         }
@@ -75,7 +68,7 @@
          * Create the shortcut
          */
         initShortcuts() {
-            this.createShortcut('copy', I18n.t(this.name).description, 'C+D', () => this.copyAddress());
+            this.createShortcut('copy', WMEUI.t(NAME).description, 'C+D', () => this.copyAddress());
         }
         /**
          * Copy the venue address to the clipboard
@@ -96,7 +89,7 @@
             let text = parts.filter(el => !!el).join(', ');
             GM.setClipboard(text);
             this.log('copied "' + text + '"');
-            $('wz-button.external-provider-add-new').click();
+            $('wz-button.external-provider-add-new').trigger("click");
             return false;
         }
     }
