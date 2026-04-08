@@ -96,9 +96,9 @@
 
     var css_248z = ".e97 {\n  float: right;\n  z-index: 100;\n  top: 0;\n  right: 0;\n  margin: 0 1px;\n  border: 0;\n  background: none;\n}\n";
 
-    WMEUI.addTranslation(NAME, TRANSLATION);
-    WMEUI.addStyle(css_248z);
     $(document).on('bootstrap.wme', () => {
+        WMEUI.addTranslation(NAME, TRANSLATION);
+        WMEUI.addStyle(css_248z);
         new E97(NAME);
     });
 
