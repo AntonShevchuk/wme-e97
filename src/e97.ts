@@ -1,4 +1,4 @@
-import { NAME } from './translations'
+import { NAME } from './name'
 import type { Venue, VenueAddress } from 'wme-sdk-typings'
 
 export class E97 extends WMEBase {

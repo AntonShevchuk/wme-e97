@@ -1,5 +1,3 @@
-export const NAME = 'E97'
-
 export const TRANSLATION = {
   'en': {
     title: 'Copy address',
