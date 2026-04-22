@@ -1,6 +1,6 @@
 {
   "name": "wme-e97",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w"
